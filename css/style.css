@@ -5,15 +5,23 @@
 		background: white;
 		font-family: 'Bitter', serif;
 		font-size: 22px;
-		text-align: justify; }
+    }
+        
 
-	section {
-		border-radius: 1em;
-		padding: 1em;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%); }
+    .flex-container {
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+    }
+
+    .flex-child {
+    }
 
 	a {
 		color: black;
